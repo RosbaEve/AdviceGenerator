@@ -6,6 +6,6 @@ function getAdvice() {
         })
         .then(post => {
         document.getElementById("advice-text").innerHTML = (post.slip.advice);
-        document.getElementById("advice-id").innerHTML = (post.slip.id);
+        document.getElementById("advice-id").innerHTML = ("ADVICE #" + post.slip.id);
         });
 }
