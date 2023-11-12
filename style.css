@@ -32,11 +32,11 @@ body{
 
 h1{
     color: #53ffab;
-    font-size: 8px;
+    font-size: 0.7vw;
     letter-spacing: 0.3vw;
     position: absolute;
     top: 3vw;
-    left: 13.5vw;
+    left: 12.8vw;
 }
 
 #advice-text{
@@ -78,7 +78,7 @@ h1{
     width: 80%;
     position: absolute;
     bottom: 4vw;
-    left: 3.2vw;
+    left: 3.3vw;
 }
 
 .attribution { 

@@ -1,3 +1,4 @@
+
 function getAdvice() {
 
     fetch('https://api.adviceslip.com/advice')
