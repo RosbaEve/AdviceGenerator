@@ -1,2 +1,21 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+* {
+    font-family: 'Manrope';
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
