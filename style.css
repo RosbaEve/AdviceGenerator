@@ -74,11 +74,16 @@ h1{
     padding: 0;
 }
 
-#divider {
+#divider1 {
+    display: block;
     width: 80%;
     position: absolute;
     bottom: 4vw;
     left: 3.3vw;
+}
+
+#divider2 {
+    display: none;
 }
 
 .attribution { 
@@ -92,3 +97,54 @@ h1{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 450px) {
+
+    body{
+        width:100vw;
+        height:100vh;
+    }
+
+    .content {
+      width: 90%;
+      min-height: 50%;
+      max-height: 40%;
+    }
+
+    h1{
+        font-size: 3vw;
+        letter-spacing: 1vw;
+        position: absolute;
+        top: 15vw;
+        left: 30vw;
+    }
+    
+    #advice-text{
+        font-size: 7vw;
+        letter-spacing: 0.1vw;
+        position: absolute;
+        left: 8vw;
+        top: 36vw;
+        width: 80%;
+    }
+
+    #divider1 {
+        display: none;
+    }
+
+    #divider2 {
+        display: block;
+        width: 80%;
+        position: absolute;
+        bottom: 20vw;
+        left: 8vw;
+    }
+
+    #action-button{
+        border-radius: 50%;
+        height: 20vw;
+        width: 20vw;
+        position: absolute;
+        bottom: -8vw;
+    }
+  }
