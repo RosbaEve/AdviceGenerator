@@ -8,8 +8,37 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202632;
 }
 
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 20vw;
+    background-color: #313a49;
+    border-radius: 15px;
+}
+
+.content div {
+    font-weight: 800;
+}
+
+h1{
+    color: #53ffab;
+}
+
+#advice-text{
+    color: #c6dae1;
+}
+
+#action-button{
+    background-color: #53ffab;
+}
 
 .attribution { 
     font-size: 11px; 
