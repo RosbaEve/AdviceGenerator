@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 35%;
+    width: 33%;
     height: 20vw;
     background-color: #313a49;
     border-radius: 15px;
@@ -34,11 +34,19 @@ h1{
     color: #53ffab;
     font-size: 8px;
     letter-spacing: 0.3vw;
+    position: absolute;
+    top: 3vw;
+    left: 13.5vw;
 }
 
 #advice-text{
     color: #c6dae1;
     font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    position: absolute;
+    left: 3vw;
+    top: 6vw;
+    width: 80%;
 }
 
 #action-button{
@@ -59,6 +67,13 @@ h1{
     height: auto;
     margin: 0;
     padding: 0;
+}
+
+#divider {
+    width: 80%;
+    position: absolute;
+    bottom: 4vw;
+    left: 3.2vw;
 }
 
 .attribution { 
