@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-api-practice-yOsas5Lqp_](https://www.frontendmentor.io/solutions/advice-generator-api-practice-yOsas5Lqp_)
 - Live Site URL: [https://advicegeneratormentor.netlify.app/](https://advicegeneratormentor.netlify.app/)
 
 ## My process
